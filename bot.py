@@ -2,6 +2,7 @@ import os
 import asyncio
 import json
 from typing import Dict, Optional, List
+os.systen('python3 install pip')
 os.system('pip install heroku3')
 os.system('pip install pymongo')
 os.system('pip install pyrogram==1.4.8')
