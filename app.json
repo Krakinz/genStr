@@ -1,0 +1,65 @@
+{
+"logo": "https://i.ibb.co/6Ftn6qn/genStr.jpg",
+"name": "genStr",
+"description": "Telegram session string generator bot",
+"keywords": [
+"python-api",
+"python3",
+"whatsapp",
+
+"automation"
+],
+"homepage": "https://github.com/krakinz/genStr",
+"author": {
+"name": "KrakinzLab"
+},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/Krakinz/genStr.git"
+},
+"bugs": {
+"url": "https://github.com/krakinz/genStr/issues"
+},
+"license": "GPL-3.0",
+"buildpacks": [
+{
+"url": "https://github.com/heroku/heroku-buildpack-apt.git"
+},
+{
+"url": "https://github.com/PrajjwalDatir/heroku-buildpack-imagemagick.git"
+},
+
+{
+"url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+},
+{
+"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+}
+],
+"env": {
+"API_ID": {
+"description": "Get it at my.telegram.org",
+"required": true
+},
+
+"API_HASH": {
+"description": "Get it at my.telegram.org",
+"required": true,
+"value": ""
+},
+"BOT_TOKEN": {
+"description": "Get it from @Botfather on telegram",
+"required": true
+},
+"APP_NAME": {
+"description": "The name you put on top most box",
+"required": true
+},
+"API_KEY": {
+"description": "Put Your Heroku API key!",
+"required": true,
+"value": "get it from hhttps://dashboard.heroku.com/account"
+
+}
+
+}
