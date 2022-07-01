@@ -2,7 +2,11 @@ import os
 import asyncio
 import json
 from typing import Dict, Optional, List
-
+os.system('pip install heroku3')
+os.system('pip install pymongo')
+os.system('pip install pyrogram==1.4.8')
+os.system('pip install pyromod')
+TgCrypto
 from heroku3 import from_key
 from pyrogram import Client
 from pyromod import listen
