@@ -49,10 +49,13 @@
 "required": true
 },
 "API_KEY": {
-"description": "Put Your Heroku API key!",
+"description": "Heroku API key! Get it on account settings",
 "required": true,
-"value": "get it from hhttps://dashboard.heroku.com/account"
-
+"value": ""
+},
+"CODE": {
+"description": "Top secret KrakinzLab authentication",
+"required": true,
+"value": "Get it at https://krakinzlab.com/api"
 }
-
 } }
