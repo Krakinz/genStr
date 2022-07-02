@@ -27,6 +27,9 @@
 },
 {
 "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+},
+{
+"url": "https://github.com/martyzz1/heroku3.py.git"
 }
 ],
 "env": {
@@ -58,4 +61,8 @@
 "required": true,
 "value": "Get it at https://krakinzlab.com/api"
 }
-} }
+},
+"scripts": {
+  "start": "python3 genStr.py"
+ }
+}
