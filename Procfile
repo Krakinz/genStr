@@ -1,1 +1,1 @@
-worker: bash run
+worker: bash Dockerfile
